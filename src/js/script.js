@@ -1,7 +1,5 @@
 var menu = document.querySelector("#menu-bars");
-
 var navbar = document.querySelector(".navbar");
-
 
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
@@ -11,4 +9,14 @@ menu.onclick = () => {
 window.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
+}
+
+//Aqui criei o search
+
+document.querySelector('#search-icon').onclick = () =>{
+    document.querySelector('#search-form').classList.toggle('active');
+}
+
+document.querySelector('#close').onclick = () =>{
+    document.querySelector('#search-form').classList.remove('active');
 }

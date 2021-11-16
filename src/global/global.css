@@ -71,6 +71,11 @@ html{
         background: #eee;
     }
 
+    #search-form #search-box{
+        width: 90%;
+        margin: 0 1rem;
+    }
+
     
 }
 

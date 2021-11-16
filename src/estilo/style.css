@@ -72,5 +72,59 @@
     display: none;
 }
 
+#search-form{
+    position: fixed;
+    top: -110%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 110;
+    background: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
 
+#search-form.active{
+    top: 0;
+}
+
+#search-form #search-box{
+    width: 50rem;
+    border-bottom: .1rem solid var(--cor-branca);
+    padding: 1rem 0;
+    color: var(--cor-branca);
+    font-size: 3rem;
+    text-transform: none;
+    background: none;
+}
+
+#search-form #search-box::placeholder{
+    color: #eee;
+    font-weight: 400;
+}
+
+#search-form #search-box::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+#search-form label{
+    color: var(--cor-branca);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#search-form label:hover{
+    color: var(--cor-verde);
+}
+
+#search-form #close{
+    position: absolute;
+    color: var(--cor-branca);
+    cursor: pointer;
+    top: 2rem;
+    right: 3rem;
+    font-size: 4rem;
+}
 
