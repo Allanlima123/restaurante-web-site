@@ -1,0 +1,81 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@300;400;800&display=swap');
+
+
+:root{
+    --fonte-poppins: 'Poppins',sans-serif;
+    --fonte-Nunito:'Nunito',sans-serif;
+    --fonte-Public-sans:'Public Sans',sans-serif;
+
+    --cor-verde:#27ae60;
+    --cor-preta:#192a56;
+    --light-cor:#666;
+    --cor-branca:#fff;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+}
+
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+    .cabecalho{
+        padding: 1rem 2rem;
+    }
+}
+
+@media(max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .cabecalho .icones #menu-bars{
+        display: inline-block;
+    }
+
+    .cabecalho .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--cor-branca);
+        padding: 1rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        border-bottom: .1rem solid rgba(0, 0, 0, .2);
+        clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .cabecalho .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .cabecalho .navbar ul{
+        display: block;
+    }
+
+    .cabecalho .navbar ul li a{
+        display: block;
+        padding: .8rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: #eee;
+    }
+
+    
+}
+
+@media(max-width:425px){
+    html{
+        font-size: 55%;
+    }
+}

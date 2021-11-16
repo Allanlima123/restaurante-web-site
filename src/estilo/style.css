@@ -1,0 +1,76 @@
+
+.cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7%;
+    background: var(--cor-branca);
+    box-shadow: var(--box-shadow);
+}
+
+.cabecalho .logo{
+    color: var(--cor-preta);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+.cabecalho .logo i{
+    color: var(--cor-verde);
+}
+
+.cabecalho .navbar ul{
+    display: flex;
+}
+
+.cabecalho .navbar ul li{
+    margin: 0 .3rem;
+}
+
+.cabecalho .navbar ul li a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color: var(--light-cor);
+    font-weight: 600;
+    padding: .5rem 1.2rem;
+}
+
+.cabecalho .navbar ul li a.active,
+.cabecalho .navbar ul li a:hover{
+    background: var(--cor-verde);
+    color: var(--cor-branca);
+    padding: .8rem 1.2rem;
+}
+
+.cabecalho .icones i,
+.cabecalho .icones a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    background: #eee;
+    color: var(--cor-preta);
+}
+
+.cabecalho .icones i:hover,
+.cabecalho .icones a:hover{
+    color: var(--cor-branca);
+    background: var(--cor-verde);
+    transform: rotate(360deg);
+}
+
+.cabecalho .icones #menu-bars{
+    display: none;
+}
+
+
+
