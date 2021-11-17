@@ -23,6 +23,42 @@ html{
     scroll-padding-top: 5.5rem;
 }
 
+section,
+footer{
+    padding: 2rem 9%;
+}
+
+section:nth-child(even){
+    background: #eee;
+}
+
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    background: var(--cor-preta);
+    color: var(--cor-branca);
+    padding: .8rem 3rem;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--cor-verde);
+    transform: scale(1.06);
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width:991px){
     html{
         font-size: 55%;
@@ -30,6 +66,10 @@ html{
 
     .cabecalho{
         padding: 1rem 2rem;
+    }
+
+    section{
+        padding: 2rem;
     }
 }
 
@@ -74,6 +114,10 @@ html{
     #search-form #search-box{
         width: 90%;
         margin: 0 1rem;
+    }
+
+    .home .home-slider .slider .content h3{
+        font-size: 3rem;
     }
 }
 

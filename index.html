@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Links css-->
     <link rel="stylesheet" href="src/estilo/style.css">
     <link rel="stylesheet" href="src/global/global.css">
     <link rel="stylesheet" href="src/reset/rest.css">
+
+    <!--Link javascript-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
     <title>Food website</title>
 </head>
@@ -54,10 +58,65 @@
         <i class="fas fa-times" id="close"></i>
     </form>
 
-    <!--parei em 21:57-->
+    <section class="home" id="home">
+
+        <div class="home-slider swiper">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slider">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione incidunt rem ipsum reiciendis molestiae, accusantium velit at fugiat officiis earum nihil? Aut ut iure dolor ratione deserunt soluta, quisquam molestiae?</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="image">
+                        <img src="imagens/home-img-1.png" alt="Prato Macarrao">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slider">
+
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Fried Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione incidunt rem ipsum reiciendis molestiae, accusantium velit at fugiat officiis earum nihil? Aut ut iure dolor ratione deserunt soluta, quisquam molestiae?</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="image">
+                        <img src="imagens/home-img-2.png" alt="Prato Galeto assado">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slider">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione incidunt rem ipsum reiciendis molestiae, accusantium velit at fugiat officiis earum nihil? Aut ut iure dolor ratione deserunt soluta, quisquam molestiae?</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="image">
+                        <img src="imagens/home-img-3.png" alt="Prato Pizza">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
 
 
 
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="src/js/script.js"></script>
 </body>
 </html>
