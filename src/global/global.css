@@ -26,6 +26,8 @@ html{
 section,
 footer{
     padding: 2rem 9%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 section:nth-child(even){
@@ -48,6 +50,21 @@ section:nth-child(even){
     background: var(--cor-verde);
     transform: scale(1.06);
     letter-spacing: 1px;
+}
+
+
+.sub-heading{
+    text-align: center;
+    color: var(--cor-verde);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--cor-preta);
+    padding-bottom: 3rem;
 }
 
 
@@ -123,6 +140,11 @@ section:nth-child(even){
 
 @media(max-width:425px){
     html{
-        font-size: 55%;
+        font-size: 50%;
+    }
+
+    .Dishes .dishes-box .dishes img{
+        height: auto;
+        width: 100%;
     }
 }
