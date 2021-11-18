@@ -93,7 +93,7 @@ section:nth-child(even){
 @media(max-width:768px){
 
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
 
     .cabecalho .icones #menu-bars{
