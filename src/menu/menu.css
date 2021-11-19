@@ -1,0 +1,78 @@
+.Menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+
+.Menu .box-container .row{
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0,0,0,.2);
+}
+
+.Menu .box-container .row .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.Menu .box-container .row .image img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.Menu .box-container .row .image .fa-heart{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background: #eee;
+    font-size: 2rem;
+    color: var(--cor-preta);
+}
+
+.Menu .box-container .row .image .fa-heart:hover{
+    background: var(--cor-verde);
+    color: var(--cor-branca);
+}
+
+.Menu .box-container .row .content{
+    padding: 2rem;
+}
+
+.Menu .box-container .row .content .stars{
+    padding-bottom: 1rem;
+}
+
+.Menu .box-container .row .content .stars i{
+    font-size: 1.7rem;
+    color: var(--cor-verde);
+}
+
+.Menu .box-container .row .content h3{
+    color: var(--cor-preta);
+    font-size: 2.5rem;
+}
+
+.Menu .box-container .row .content p{
+    color: var(--cor-preta);
+    font-size: 1.7rem;
+    line-height: 1.5;
+    padding: .5rem 0;
+    color: var(--light-cor);
+}
+
+.Menu .box-container .row .content .price{
+    font-size: 2.5rem;
+    color: var(--cor-verde);
+    margin-left: 1rem;
+}
