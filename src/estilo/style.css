@@ -322,4 +322,42 @@
 }
 
 
+.robape .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 1.5rem;
+}
+
+.robape .box-container .box h3{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color:var(--cor-preta);
+}
+
+.robape .box-container .box a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-cor);
+}
+
+.robape .box-container .box a:hover{
+    color: var(--cor-verde);
+    text-decoration: underline;
+}
+
+.robape .creditos{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    letter-spacing: .5px;
+    border-top: .1rem solid var(--light-cor);
+    color: var(--cor-preta);
+    margin-top: 1.5rem;
+}
+
+.robape .creditos span{
+    color: var(--cor-verde);
+}
+
 
