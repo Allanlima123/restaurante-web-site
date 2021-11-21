@@ -147,4 +147,8 @@ section:nth-child(even){
         height: auto;
         width: 100%;
     }
+
+    .order form .inputbox .input{
+        width: 100%;
+    }
 }

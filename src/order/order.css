@@ -1,0 +1,54 @@
+
+.order form{
+    max-width: 90rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0,0,0,.2);
+    background: #fff;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.order form .inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order form .inputbox .input{
+    width: 49%;
+}
+
+.order form .inputbox .input label{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--light-cor);
+}
+
+.order form .inputbox .input input,
+.order form .inputbox .input textarea{
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--cor-preta);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.order form .inputbox .input input:focus,
+.order form .inputbox .input textarea:focus{
+    border: .1rem solid var(--cor-verde);
+}
+
+.order form .inputbox .input textarea{
+    resize: none;
+    height: 20rem;
+}
+
+.order form .btn{
+    margin-top: 0;
+}
