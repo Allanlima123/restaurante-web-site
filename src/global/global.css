@@ -67,15 +67,6 @@ section:nth-child(even){
     padding-bottom: 3rem;
 }
 
-
-
-
-
-
-
-
-
-
 @media(max-width:991px){
     html{
         font-size: 55%;

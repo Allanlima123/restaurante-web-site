@@ -171,7 +171,6 @@
 }
 
 
-
 .Dishes .dishes-box{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -264,7 +263,6 @@
 
 .about .row .image{
     flex: 1 1 45rem;
-    /*max-width: 50rem;*/
 }
 
 .about .row .image img{
@@ -273,7 +271,6 @@
 
 .about .row .content{
     flex: 1 1 45rem;
-    /*max-width: 50rem;*/
 }
 
 .about .row .content h3{
